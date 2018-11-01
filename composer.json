@@ -26,13 +26,14 @@
         {"type": "composer", "url": "http://aggrega:31080777@toran.aggregando.com.br/repo/packagist/"},
         {"packagist": false}
     ],
-    "autoload": {
+     "autoload": {
         "classmap": [
             "database/seeds",
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Aggrega\\Heimdall\\": "packages/aggrega/heimdall-pkg/src"
         }
     },
     "autoload-dev": {
