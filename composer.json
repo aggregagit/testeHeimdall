@@ -21,6 +21,11 @@
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0"
     },
+    "repositories": [
+        {"type": "composer", "url": "http://aggrega:31080777@toran.aggregando.com.br/repo/private/"},
+        {"type": "composer", "url": "http://aggrega:31080777@toran.aggregando.com.br/repo/packagist/"},
+        {"packagist": false}
+    ],
     "autoload": {
         "classmap": [
             "database/seeds",
